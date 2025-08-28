@@ -5,10 +5,9 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-//import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.foundation.isSystemInDarkTheme
 
-
+/* Manejo de colores en el modo claro */
 private val LightColorScheme = lightColorScheme(
     primary = Color(0xFF6200EE),
     secondary = Color(0xFF03DAC5),
@@ -20,6 +19,7 @@ private val LightColorScheme = lightColorScheme(
     onSurface = Color.Black,
 )
 
+/* Manejo de colores en el modo oscuro */
 private val DarkColorScheme = darkColorScheme(
     primary = Color(0xFFBB86FC),
     secondary = Color(0xFF03DAC5),

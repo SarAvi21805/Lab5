@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation(libs.androidx.lifecycle.viewmodel.compose) // Para viewModel()
+    implementation(libs.androidx.lifecycle.runtime.compose)     // Para tomar fotos con el teléfono
     implementation(libs.coil.compose)                         // Para Coil
     implementation(libs.androidx.material.icons.extended)      // Para los íconos
 

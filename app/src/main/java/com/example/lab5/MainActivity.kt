@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Lab5Theme {
-                PhotoGalleryScreen()
+                PhotoGalleryScreen() /* Iniciando la aplicación */
             }
         }
     }
